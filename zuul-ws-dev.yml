@@ -17,3 +17,7 @@ zuul:
       path: /servicios/ug/api/**
       serviceId: seguridad
       url: http://127.0.0.1:8701/
+    ws-gestion-proyecto:
+      path: /servicios/ug/api/**
+      serviceId: gestion_proyecto
+      url: http://127.0.0.1:8703/
