@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://127.0.0.1:5432/gestion_proyecto_ug
+    username: sisapp
+    password: sisapp98
+    hikari:
+      maximum-pool-size: 5
+      minimum-idle: 5
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQL95Dialect
+
+
+email:
+  correoHost: smtp.gmail.com
+  correoPort: 587
+  correo: choez552@gmail.com
+  razonSocial: Cristhian_1994@isa
+  correoClave: Cristhian_1994@isa
+  ssl: false
+
+asgard:
+  rutaArchivos: C:/server-files/correo_archivos/
