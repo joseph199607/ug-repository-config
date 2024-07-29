@@ -15,9 +15,9 @@ spring:
 email:
   correoHost: smtp.gmail.com
   correoPort: 587
-  correo: choez552@gmail.com
-  razonSocial: Cristhian_1994@isa
-  correoClave: Cristhian_1994@isa
+  correo:
+  razonSocial:
+  correoClave: 
   ssl: false
 
 asgard:
