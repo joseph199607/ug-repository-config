@@ -21,6 +21,10 @@ zuul:
       path: /servicios-gestion/ug/api/**
       serviceId: gestion_proyecto
       url: http://127.0.0.1:8703/
+    ws-mail:
+      path: /servicios-mail/ug/api/**
+      serviceId: ug_mail
+      url: http://127.0.0.1:8704/
 config:
   security:
     oauth:
