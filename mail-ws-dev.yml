@@ -15,9 +15,9 @@ spring:
 email:
   correoHost: smtp.gmail.com
   correoPort: 587
-  correo:
-  razonSocial:
-  correoClave: 
+  correo: uguniversidad13@gmail.com
+  razonSocial: Univesidad de Guayaquil
+  correoClave: Universidadug2024
   ssl: false
 
 asgard:
