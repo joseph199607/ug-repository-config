@@ -6,4 +6,4 @@ spring:
       database: correodb
 
 email:
-  ruta_archivos: /origamigt_archivo/archivos/
+  ruta_archivos: C:/archivos/
