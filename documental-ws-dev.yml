@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      port: 27017
+      host: 127.0.0.1
+      database: correodb
+
+ugDocs:
+  imagenes: C:/archivos/imagenes/
+  archivos: C:/archivos/documentos/
