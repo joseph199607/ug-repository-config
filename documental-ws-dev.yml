@@ -6,5 +6,8 @@ spring:
       database: correodb
 
 ugDocs:
+  apiContext: http://127.0.0.1:8713/servicios-documental/ug/api/
   imagenes: C:/archivos/imagenes/
   archivos: C:/archivos/documentos/
+  rutaReportes: classpath:reportes/
+  rutaImagenes: classpath:imagenes/
