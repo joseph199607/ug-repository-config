@@ -29,6 +29,10 @@ zuul:
       path: /servicios-documental/ug/api/**
       serviceId: ug_documental
       url: http://127.0.0.1:8705/
+    ws-archivo:
+      path: /servicios-archivos/ug/api/**
+      serviceId: ug_archivo
+      url: http://127.0.0.1:8706/
 config:
   security:
     oauth:
