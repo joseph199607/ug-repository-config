@@ -17,8 +17,9 @@ spring:
     allow-bean-definition-overriding: true
 
 app:
-  documental: C:/archivos/documentos/
-  imagenes: C:/archivos/imagenes/
+  gestor:
+    reportes: classpath:reportes/
+    imagenes: classpath:imagenes/
   urlResource: http://127.0.0.1:8713/servicios-archivos/ug/api/
 
 logging:
