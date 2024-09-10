@@ -10,3 +10,9 @@ spring:
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQL95Dialect
+
+app:
+  gestor:
+    reportes: classpath:reportes/
+    imagenes: classpath:imagenes/
+  urlDocumental: http://127.0.0.1:8713/servicios-archivos/ug/api/
