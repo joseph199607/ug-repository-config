@@ -15,4 +15,3 @@ app:
   gestor:
     reportes: classpath:reportes/
     imagenes: classpath:imagenes/
-  urlDocumental: http://127.0.0.1:8713/servicios-archivos/ug/api/
